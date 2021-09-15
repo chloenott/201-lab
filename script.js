@@ -8,6 +8,8 @@ let correct = "You were correct!"
 let incorrect = "That is incorrect. It's probably the other answer."
 
 // Deliberating not using a function, loop, nor map for the intent of this assignment.
+// Asks user a question. User is alerted whether answer was correct.
+// Invalid responses: not yes/y/no/n. Capitalization has no affect.
 let response = prompt('Are cats my favorite kind of pet?')
 if (typeof(response) == 'string') {
     response = response.toLowerCase();
