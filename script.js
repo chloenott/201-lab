@@ -14,56 +14,72 @@ let response = prompt('Are cats my favorite kind of pet?')
 if (typeof(response) == 'string') {
     response = response.toLowerCase();
     if (response == 'yes' || response == 'y') {
-        console.log(correct);
+        //console.log(correct);
+        alert(correct);
     } else if (response == 'no' || response == 'n') {
-        console.log(incorrect);
+        //console.log(incorrect);
+        alert(incorrect);
     } else {
-        console.log(invalid);
+        //console.log(invalid);
+        alert(invalid);
     }
 } else {
-    console.log(invalid);
+    //console.log(invalid);
+    alert(invalid);
 }
 
 response = prompt('Is watermelon not my favorite food?')
 if (typeof(response) == 'string') {
     response = response.toLowerCase();
     if (response == 'yes' || response == 'y') {
-        console.log(incorrect);
+        //console.log(incorrect);
+        alert(incorrect);
     } else if (response == 'no' || response == 'n') {
-        console.log(correct);
+        //console.log(correct);
+        alert(correct);
     } else {
-        console.log(invalid);
+        //console.log(invalid);
+        alert(invalid);
     }
 } else {
-    console.log(invalid);
+    //console.log(invalid);
+    alert(invalid)
 }
 
 response = prompt('Is my favorite color blue?')
 if (typeof(response) == 'string') {
     response = response.toLowerCase();
     if (response == 'yes' || response == 'y') {
-        console.log(incorrect);
+        //console.log(incorrect);
+        alert(incorrect);
     } else if (response == 'no' || response == 'n') {
-        console.log(correct);
+        //console.log(correct);
+        alert(correct);
     } else {
-        console.log(invalid);
+        //console.log(invalid);
+        alert(invalid);
     }
 } else {
-    console.log(invalid);
+    //console.log(invalid);
+    alert(invalid)
 }
 
 response = prompt('Do I enjoy listening to music?')
 if (typeof(response) == 'string') {
     response = response.toLowerCase();
     if (response == 'yes' || response == 'y') {
-        console.log(correct);
+        //console.log(correct);
+        alert(correct);
     } else if (response == 'no' || response == 'n') {
-        console.log(incorrect);
+        //console.log(incorrect);
+        alert(incorrect);
     } else {
-        console.log(invalid);
+        //console.log(invalid);
+        alert(invalid);
     }
 } else {
-    console.log(invalid);
+    //console.log(invalid);
+    alert(invalid);
 }
 
 
@@ -71,12 +87,16 @@ response = prompt('Is Gundam Unicorn my favorite anime?')
 if (typeof(response) == 'string') {
     response = response.toLowerCase();
     if (response == 'yes' || response == 'y') {
-        console.log(correct + " Thank you for playing this guessing game, " + userName + "!");
+        //console.log(correct + " Thank you for playing this guessing game, " + userName + "!");
+        alert(correct + " Thank you for playing this guessing game, " + userName + "!");
     } else if (response == 'no' || response == 'n') {
-        console.log(incorrect + " Thank you for playing this guessing game, " + userName + "!");
+        //console.log(incorrect + " Thank you for playing this guessing game, " + userName + "!");
+        alert(incorrect + " Thank you for playing this guessing game, " + userName + "!");
     } else {
-        console.log(invalid + " Thank you for playing this guessing game, " + userName + "!");
+        //console.log(invalid + " Thank you for playing this guessing game, " + userName + "!");
+        alert(invalid + " Thank you for playing this guessing game, " + userName + "!");
     }
 } else {
-    console.log(invalid + " Thank you for playing this guessing game, " + userName + "!");
+    //console.log(invalid + " Thank you for playing this guessing game, " + userName + "!");
+    alert(invalid + " Thank you for playing this guessing game, " + userName + "!");
 }
