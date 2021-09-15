@@ -8,11 +8,15 @@ let correct = "You were correct!"
 let incorrect = "That is incorrect. It's probably the other answer."
 
 // Deliberating not using a function, loop, nor map for the intent of this assignment.
-let response = prompt('Are cats my favorite kind of pet?').toLowerCase();
-if (response == 'yes' || response == 'y') {
-    console.log(correct);
-} else if (response == 'no' || response == 'n') {
-    console.log(incorrect);
+let response = prompt('Are cats my favorite kind of pet?')
+if (typeof(response) == 'string') {
+    if (response == 'yes' || response == 'y') {
+        console.log(correct);
+    } else if (response == 'no' || response == 'n') {
+        console.log(incorrect);
+    } else {
+        console.log(invalid);
+    }
 } else {
     console.log(invalid);
 }
