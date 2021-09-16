@@ -18,7 +18,9 @@ Features to add:
 - ~~Optional: put questions, answers, responses for first 5 questions into arrays (or array of arrays). Use for loop utilizing it.~~
 - ~~Optional: Make the 6th question a random number to guess.~~
 
-
+## Lab 4:
+Driver: K'Lan
+Navigator: Chloe
 
 
 
