@@ -1,3 +1,7 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient() */
 html {
     background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
@@ -9,19 +13,23 @@ html {
 }
 
 main {
-    width: 700px;
-    margin: auto;
+    width: 23em;
+    margin: 1em auto;
     background-color: white;
     border-radius: 50px;
+    padding: 2em;
+    box-shadow: 0px 0px 10px 0 #5c5c5c;
 }
 
 h1 {
     text-align: center;
-    padding-top: 25px;
 }
 
 p {
-    padding: 50px;
-    padding-bottom: 50px;
-    padding-top: 0px;
+    padding-top: 1em;
+}
+
+ul,ol {
+    padding-left: 2em;
+    padding-top: 0.5em;
 }
