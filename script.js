@@ -3,18 +3,22 @@
 // Be sure to increment questionsAsked if any additional questions are added later on.
 let correctCount = 0;
 let questionsAsked = 0;
-let userName
+let userName;
+
 function question1To5(){
     
     // What is your name?
     let userName = prompt("What is your name?");
     if (typeof(userName) == 'string') {
         if (userName.length > 0) {
+            console.log("Welcome " + userName + "!")
             alert("Welcome " + userName + "!");
         } else {
+            console.log("Welcome stranger!");
             alert("Welcome stranger!");
         }
     } else {
+        console.log("Welcome stranger!");
         alert("Welcome stranger!");
     }
     
@@ -78,6 +82,7 @@ function question1To5(){
             questionsAsked--; // (Workaround...)
         }
     
+
         console.log(alertResponse);
         alert(alertResponse);
     }
@@ -210,6 +215,7 @@ function question7(){
     }
 }
 
-question1To5();
-question6();
-question7();
+// Suppressing prompts. Prompts were required for assignment completion. Uncomment to see prompts.
+// question1To5();
+// question6();
+// question7();
